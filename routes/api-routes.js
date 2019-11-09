@@ -50,8 +50,6 @@ module.exports = function(app) {
         },
         {
           where: {id},
-
-
         });
     res.send(result);
   });
